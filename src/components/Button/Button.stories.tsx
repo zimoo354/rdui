@@ -1,11 +1,12 @@
-import Button from './Button';
+import { Meta, Story } from '@storybook/react';
+import * as TemplateButton from './Button';
 
 export default {
-  title: 'Button',
-};
+  title: 'Components/Button',
+  component: TemplateButton.default,
+} as Meta;
 
-export const active = (): JSX.Element => (
-  <Button variant="primary" onClick={() => alert('Clicked')}>
-    Active button
-  </Button>
-);
+const Template: Story = (args) => <TemplateButton.default {...args} />;
+
+export const Button = Template.bind({});
+Button.args = { variant: 'primary', children: 'Click me' };

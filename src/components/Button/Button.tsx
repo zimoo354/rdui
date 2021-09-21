@@ -10,7 +10,7 @@ const Button = forwardRef<HTMLButtonElement, Props>(
     forwardedRef: Ref<HTMLButtonElement>
   ) => {
     return (
-      <button css={base} ref={forwardedRef} {...rest}>
+      <button className={base} ref={forwardedRef} {...rest}>
         {children}
       </button>
     );
