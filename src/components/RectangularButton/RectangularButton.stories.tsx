@@ -1,5 +1,5 @@
 import { Meta, Story } from '@storybook/react';
-import * as TemplateButton from './Button';
+import * as TemplateButton from './RectangularButton';
 
 export default {
   title: 'Components/Button',
@@ -8,6 +8,10 @@ export default {
 
 const Template: Story = (args) => <TemplateButton.default {...args} />;
 
-export const Button = Template.bind({});
+export const RectangularButton = Template.bind({});
 
-Button.args = { variant: 'primary', children: 'Click me', disabled: false };
+RectangularButton.args = {
+  variant: 'primary',
+  children: 'Click me',
+  disabled: false,
+};
