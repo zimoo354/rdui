@@ -1,5 +1,5 @@
 import { ButtonHTMLAttributes, forwardRef, Ref } from 'react';
-import { ButtonProps, Merge } from '../../types';
+import { ButtonProps, Merge } from 'types';
 import { primary, link } from './Button.styles';
 
 type Props = Merge<ButtonProps, ButtonHTMLAttributes<HTMLButtonElement>>;

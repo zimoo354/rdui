@@ -1,11 +1,5 @@
 import { css } from '@emotion/css';
-import {
-  WHITE,
-  BLUE_500,
-  BLUE_600,
-  GRAY_300,
-  GRAY_500,
-} from '../../utils/colors';
+import { WHITE, BLUE_500, BLUE_600, GRAY_300, GRAY_500 } from '~/utils/colors';
 
 const base = css`
   height: 36px;

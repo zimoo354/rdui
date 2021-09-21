@@ -7,7 +7,7 @@ import {
   BLACK,
   GRAY_800,
   BLUE_300,
-} from '../../utils/colors';
+} from '~/utils/colors';
 
 const base = css`
   height: 40px;
