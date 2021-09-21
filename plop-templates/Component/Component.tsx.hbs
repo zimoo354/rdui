@@ -1,0 +1,24 @@
+import React, { forwardRef, Ref, AllHTMLAttributes } from 'react';
+// don't forget to create your type definition
+import { {{ pascalCase name }}Props, Merge } from 'types';
+import { /* ... */ } from './{{ pascalCase name }}.styles';
+
+type Props = Merge<{{ pascalCase name }}Props, AllHTMLAttributes<HTMLDivElement>>;
+
+const {{ pascalCase name }} = forwardRef<HTMLDivElement, Props>(
+  (
+    { children, variant = 'primary', ...rest }: {{ pascalCase name }}Props,
+    forwardedRef: Ref<HTMLDivElement>
+  ) => {
+    const variants = {
+      /* add your variants here */
+    };
+    return (
+      <div ref={forwardedRef} {...rest}>
+        {{ pascalCase name }}
+      </div>
+    );
+  }
+);
+
+export default {{ pascalCase name }};
