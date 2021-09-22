@@ -1,11 +1,9 @@
-import React, { forwardRef, Ref, AllHTMLAttributes } from 'react';
+import React, { forwardRef, Ref } from 'react';
 // don't forget to create your type definition
-import { {{ pascalCase name }}Props, Merge } from 'types';
+import { {{ pascalCase name }}Props } from 'types';
 import { /* ... */ } from './{{ pascalCase name }}.styles';
 
-type Props = Merge<{{ pascalCase name }}Props, AllHTMLAttributes<HTMLDivElement>>;
-
-const {{ pascalCase name }} = forwardRef<HTMLDivElement, Props>(
+const {{ pascalCase name }} = forwardRef<HTMLDivElement, {{ pascalCase name }}Props>(
   (
     { children, variant = 'primary', ...rest }: {{ pascalCase name }}Props,
     forwardedRef: Ref<HTMLDivElement>
