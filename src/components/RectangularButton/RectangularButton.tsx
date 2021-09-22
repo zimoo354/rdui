@@ -1,5 +1,5 @@
 import { ButtonHTMLAttributes, forwardRef, Ref } from 'react';
-import { RectangularButtonProps, Merge } from '../../types';
+import { RectangularButtonProps, Merge } from 'types';
 import { primary, secondary, tertiary } from './RectangularButton.styles';
 
 type Props = Merge<

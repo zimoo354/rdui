@@ -12,8 +12,6 @@ import {
 const base = css`
   height: 40px;
   box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   padding: 0 2rem;
   transition: 200ms;
   cursor: pointer;
