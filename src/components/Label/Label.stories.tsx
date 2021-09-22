@@ -2,7 +2,7 @@ import { Meta, Story } from '@storybook/react';
 import * as TemplateLabel from './Label';
 
 export default {
-  title: 'Components/Label',
+  title: 'Components/InputField',
   component: TemplateLabel.default,
 } as Meta;
 
