@@ -10,23 +10,23 @@ export interface RectangularButtonProps
   variant?: 'primary' | 'secondary' | 'tertiary';
 }
 
-export interface InputProps extends HTMLAttributes<HTMLInputElement> {
+export interface InputProps extends HTMLInputElement {
   variant?: 'v1' | 'v2';
   invalid?: boolean;
 }
-export interface SelectProps extends HTMLAttributes<HTMLSelectElement> {
+export interface SelectProps extends HTMLSelectElement {
   variant?: 'v1' | 'v2';
   invalid?: boolean;
 }
 
-export interface InputFieldProps extends HTMLAttributes<HTMLInputElement> {
+export interface InputFieldProps extends HTMLInputElement {
   variant?: 'v1' | 'v2';
   label: string;
   helpText?: string;
   error?: string;
 }
 
-export interface SelectFieldProps extends HTMLAttributes<HTMLSelectElement> {
+export interface SelectFieldProps extends HTMLSelectElement {
   variant?: 'v1' | 'v2';
   label: string;
   helpText?: string;

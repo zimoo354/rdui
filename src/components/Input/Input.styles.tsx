@@ -8,6 +8,11 @@ import {
   GRAY_600,
 } from '../../utils/colors';
 
+export const inputContainer = css`
+  position: relative;
+  box-sizing: border-box;
+`;
+
 const base = css`
   box-sizing: border-box;
   padding: 0 0.75rem;
@@ -52,5 +57,21 @@ export const v2 = (invalid: boolean) => css`
   &:disabled {
     background-color: ${GRAY_50};
     border: none;
+  }
+`;
+
+export const eyeButtonStyle = css`
+  border: none;
+  outline: none;
+  background-color: transparent;
+  position: absolute;
+  right: 0;
+  top: 6px;
+  height: 28px;
+  cursor: pointer;
+
+  svg {
+    height: 28px;
+    fill: ${BLUE_500};
   }
 `;

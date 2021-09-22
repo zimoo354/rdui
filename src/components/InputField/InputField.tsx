@@ -1,5 +1,4 @@
 import React, { forwardRef, Ref } from 'react';
-// don't forget to create your type definition
 import { InputFieldProps } from 'types';
 import { HelpText } from '../HelpText';
 import { Input } from '../Input';

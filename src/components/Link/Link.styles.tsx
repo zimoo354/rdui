@@ -7,7 +7,7 @@ const disabledStyle = css`
   pointer-events: none;
 `;
 
-export const linkStyle = (disabled = false) => css`
+export const linkStyle = (disabled: boolean) => css`
   font-size: 1rem;
   font-weight: 500;
   font-family: sans-serif;
