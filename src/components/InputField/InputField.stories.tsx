@@ -5,6 +5,12 @@ import * as TemplateInputField from './InputField';
 export default {
   title: 'Components/InputField',
   component: TemplateInputField.default,
+  argTypes: {
+    type: {
+      options: ['text', 'password'],
+      control: { type: 'select' },
+    },
+  },
 } as Meta;
 
 const Template: Story<InputFieldProps> = (args: InputFieldProps) => (
@@ -18,4 +24,5 @@ InputField.args = {
   label: 'First name',
   helpText: 'This is supposed to be a hint',
   error: '',
+  type: 'text',
 };
