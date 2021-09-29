@@ -22,7 +22,7 @@ const base = css`
 `;
 
 export const primary = css`
-  ${base}
+  ${base};
 
   border: 2px solid ${BLUE_500};
   color: ${BLUE_500};
@@ -42,7 +42,7 @@ export const primary = css`
 `;
 
 export const link = css`
-  ${base}
+  ${base};
 
   border: none;
   color: ${BLUE_500};

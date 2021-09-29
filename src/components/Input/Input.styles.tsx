@@ -14,22 +14,22 @@ export const inputContainer = css`
 `;
 
 const base = css`
+  width: 100%;
   box-sizing: border-box;
   padding: 0 0.75rem;
   height: 40px;
   outline: none;
-  width: 100%;
 `;
 
 export const v1 = (invalid: boolean) => css`
-  ${base}
+  ${base};
 
-  border-radius: 12px;
   border-width: 1px;
   border-style: solid;
   border-color: ${invalid ? DANGER : BLUE_500};
   color: ${invalid ? DANGER : BLACK};
   margin-bottom: 0.5rem;
+  border-radius: 12px;
 
   &:focus {
     box-shadow: 0px 0px 4px ${BLUE_300};
@@ -42,7 +42,7 @@ export const v1 = (invalid: boolean) => css`
 `;
 
 export const v2 = (invalid: boolean) => css`
-  ${base}
+  ${base};
 
   border-width: 2px;
   border-style: solid;

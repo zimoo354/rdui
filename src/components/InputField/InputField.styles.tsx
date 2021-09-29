@@ -14,5 +14,5 @@ export const container = (variant: keyof typeof variants) => css`
   display: flex;
   flex-direction: column;
 
-  ${variants[variant]}
+  ${variants[variant]};
 `;

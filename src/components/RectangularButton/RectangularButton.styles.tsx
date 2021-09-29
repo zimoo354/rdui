@@ -24,7 +24,7 @@ const base = css`
 `;
 
 export const primary = css`
-  ${base}
+  ${base};
 
   background-color: ${BLACK};
   color: ${WHITE};
@@ -39,7 +39,7 @@ export const primary = css`
 `;
 
 export const secondary = css`
-  ${base}
+  ${base};
 
   background-color: ${BLUE_500};
   color: ${WHITE};
@@ -54,7 +54,7 @@ export const secondary = css`
 `;
 
 export const tertiary = css`
-  ${base}
+  ${base};
 
   border: 2px solid ${BLACK};
   background-color: transparent;

@@ -21,5 +21,5 @@ export const linkStyle = (disabled: boolean) => css`
     ? disabledStyle
     : css`
         color: ${BLUE_500};
-      `}
+      `};
 `;

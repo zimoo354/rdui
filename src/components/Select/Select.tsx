@@ -1,6 +1,6 @@
 import React, { forwardRef, Ref } from 'react';
 import { SelectProps } from 'types';
-import { v1, v2 } from './Select.styles';
+import { v1, v2 } from '../Input/Input.styles';
 
 const Select = forwardRef<HTMLSelectElement, SelectProps>(
   (
