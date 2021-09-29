@@ -1,5 +1,4 @@
 import React, { forwardRef, Ref, AllHTMLAttributes } from 'react';
-// don't forget to create your type definition
 import { LabelProps, Merge } from 'types';
 import { labelStyle, requiredStyle } from './Label.styles';
 

@@ -1,5 +1,4 @@
 import React, { forwardRef, Ref } from 'react';
-// don't forget to create your type definition
 import { LinkProps } from 'types';
 import { linkStyle } from './Link.styles';
 

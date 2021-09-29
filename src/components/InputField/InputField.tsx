@@ -11,7 +11,7 @@ const InputField = forwardRef<HTMLInputElement, InputFieldProps>(
     forwardedRef: Ref<HTMLInputElement>
   ) => {
     return (
-      <div className={container}>
+      <div className={container(variant)}>
         <Label>{label}</Label>
         <Input
           variant={variant}
